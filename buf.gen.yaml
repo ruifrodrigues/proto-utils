@@ -1,0 +1,11 @@
+version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/ruifrodrigues/proto-utils
+plugins:
+  - remote: buf.build/protocolbuffers/plugins/go
+    out: gen/proto/go
+    opt: paths=source_relative
+  - remote: buf.build/protocolbuffers/plugins/php
+    out: gen/proto/php

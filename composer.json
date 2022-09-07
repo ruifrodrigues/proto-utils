@@ -1,0 +1,17 @@
+{
+    "name": "ruifrodrigues/proto-utils",
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Rui Rodrigues",
+            "email": "rui@dealroom.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Currency\\": "gen/proto/php/Currency"
+        }
+    }
+}

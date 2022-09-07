@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package parameter.v1;
+
+enum ParamType {
+  PARAM_TYPE_UNSPECIFIED = 0;
+  PARAM_TYPE_INDUSTRY = 1;
+  PARAM_TYPE_LOCATION = 2;
+  PARAM_TYPE_REGION = 3;
+  PARAM_TYPE_TAG = 4;
+  PARAM_TYPE_REVENUE = 5;
+  PARAM_TYPE_SDG = 6;
+  PARAM_TYPE_SUB_INDUSTRY = 7;
+  PARAM_TYPE_SLUG_LOCATION = 8;
+}
+
+message ParamFilter {
+  ParamType type = 1;
+  string value = 2;
+}

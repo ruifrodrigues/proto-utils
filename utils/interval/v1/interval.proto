@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package interval.v1;
+
+enum Interval {
+  INTERVAL_UNSPECIFIED = 0;
+  INTERVAL_YEAR = 1;
+  INTERVAL_HALF_YEAR = 2;
+  INTERVAL_QUARTER = 3;
+  INTERVAL_MONTH = 4;
+}
