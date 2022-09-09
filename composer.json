@@ -11,7 +11,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "Currency\\": "gen/proto/php/Currency"
+            "Currency\\V1\\": "gen/proto/php/Currency/V1",
+            "Interval\\V1\\": "gen/proto/php/Interval/V1",
+            "Parameter\\V1\\": "gen/proto/php/Currency/V1"
         }
     }
 }
