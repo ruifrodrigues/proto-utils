@@ -16,7 +16,7 @@
             "Parameter\\V1\\": "gen/proto/php/Currency/V1",
             "Currency\\V1\\GPBMetadata\\": "gen/proto/php/Currency/V1/GPBMetadata",
             "Interval\\V1\\GPBMetadata\\": "gen/proto/php/Interval/V1/GPBMetadata",
-            "Parameter\\V1\\GPBMetadata\\": "gen/proto/php/Currency/V1/GPBMetadata"
+            "Parameter\\V1\\GPBMetadata\\": "gen/proto/php/Parameter/V1/GPBMetadata"
         }
     }
 }
